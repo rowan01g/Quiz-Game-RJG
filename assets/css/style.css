@@ -1,7 +1,7 @@
 /*Import google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Nova+Square&family=Zen+Dots&display=swap');
 
-/* CSS HEX */
+/* some colours - CSS HEX */
 :root{
     --pumpkin: #ff6d00ff;
     --safety-orange: #ff7900ff;
@@ -36,15 +36,17 @@
         margin-bottom: 4rem;
     }
 
+
+
+/*need to make a media query for this*/
     .hero-img {
         position: relative;
-        width: 200%;
-        height: 400px;
+        width: 400%;
+        height: 500px;
         margin: auto 0;
         background: url(../images/outer-space.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-
         padding-top: 5rem;
         margin-bottom: 5rem;
         border-radius: 35px;
