@@ -37,8 +37,18 @@
     }
 
     .hero-img {
+        position: relative;
+        width: 200%;
+        height: 400px;
+        margin: auto 0;
+        background: url(../images/outer-space.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        padding-top: 5rem;
         margin-bottom: 5rem;
         border-radius: 35px;
+
     }
 
     .glow::before, 
@@ -55,8 +65,28 @@
         width: calc(100% + 5px);
         z-index: -1;
         animation: change 40s linear infinite;
+        border-radius: 35px;
 
     }
+
+    @keyframes change {
+        0%{
+            background-position: 0 0;
+        }
+        50% {
+            background-position: 400% 0;
+        }
+        100% {
+            background-position: 0 0;
+        }
+        
+    }
+
+    .glow::after{
+        filter:blur(40px);
+        opacity: .5 ;
+    }
+
 
     .container {
         width: 100vw;
