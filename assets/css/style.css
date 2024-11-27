@@ -1,0 +1,63 @@
+/* CSS HEX */
+:root{
+    --pumpkin: #ff6d00ff;
+    --safety-orange: #ff7900ff;
+    --ut-orange: #ff8500ff;
+    --princeton-orange: #ff9100ff;
+    --orange-peel: #ff9e00ff;
+    --russian-violet: #240046ff;
+    --persian-indigo: #3c096cff;
+    --tekhelet: #5a189aff;
+    --french-violet: #7b2cbfff;
+    --amethyst: #9d4eddff;
+    background-color: #111211;
+    }
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-size: 62.5%;
+        font-family: 'Nova Square', cursive;
+    }
+    
+    h1 {
+        font-size: 5.4rem;
+        color: #fff;
+        margin-bottom: 5rem;
+    }
+    
+    h2 {
+        font-size: 4.2rem;
+        margin-bottom: 4rem;
+    }
+
+    .container {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        max-width: 80rem;
+        margin: 0 auto;
+        padding: 2rem;
+    }
+
+    .flex-column {
+        display: flex; 
+        flex-direction: column;
+    }
+    
+    .flex-center {
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .justify-center {
+        justify-content: center;
+    }
+    
+    .text-center{
+        text-align: center;
+    }
+    
