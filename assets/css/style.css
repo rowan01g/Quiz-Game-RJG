@@ -79,13 +79,13 @@
         margin-bottom: 1rem;
         text-decoration: none;
         color: rgb(29, 26, 26);
-        background: linear-gradient(90deg, rgb(18, 92, 255) 0%, rgb(0, 102, 255) 100%);
-        border-radius: 4px;
+        background: linear-gradient(var(--amethyst) 0%, var(--french-violet) 100%);
+        border-radius: 20px;
     }
     
     .btn:hover{
         cursor: pointer;
-        box-shadow: 0 0.4rem 1.4rem 0 rgba(8, 114, 244, 0.6);
+        box-shadow: 0 0.4rem 1.4rem 0 var(--amethyst);
         transition: transform 150ms; 
         transform: scale(1.03);
     }
