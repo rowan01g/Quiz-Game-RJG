@@ -1,3 +1,6 @@
+/*Import google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Nova+Square&family=Zen+Dots&display=swap');
+
 /* CSS HEX */
 :root{
     --pumpkin: #ff6d00ff;
@@ -29,7 +32,13 @@
     
     h2 {
         font-size: 4.2rem;
+        color: #fff;
         margin-bottom: 4rem;
+    }
+
+    .hero-img {
+        margin-bottom: 5rem;
+        border-radius: 35px;
     }
 
     .container {
@@ -59,5 +68,31 @@
     
     .text-center{
         text-align: center;
+    }
+
+    /*Button styling*/
+    .btn {
+        font-size: 2.4rem;
+        padding: 2rem 0;
+        width: 30rem;
+        text-align: center;
+        margin-bottom: 1rem;
+        text-decoration: none;
+        color: rgb(29, 26, 26);
+        background: linear-gradient(90deg, rgb(18, 92, 255) 0%, rgb(0, 102, 255) 100%);
+        border-radius: 4px;
+    }
+    
+    .btn:hover{
+        cursor: pointer;
+        box-shadow: 0 0.4rem 1.4rem 0 rgba(8, 114, 244, 0.6);
+        transition: transform 150ms; 
+        transform: scale(1.03);
+    }
+    
+    .btn[disabled]:hover {
+        cursor: not-allowed;
+        box-shadow: none; 
+        transform: none; 
     }
     
